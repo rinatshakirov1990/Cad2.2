@@ -146,13 +146,13 @@ int main() {
     // Вывод
     cout << fixed << setprecision(0);
 
-    cout << "\n🟦 Горизонтальные сегменты:\n";
+    cout << "\n Горизонтальные сегменты:\n";
     for (const Segment& s : horizontalSegments) {
         cout << "(" << s.start.x << ", " << s.start.y << ") → ("
              << s.end.x << ", " << s.end.y << ") | Длина: " << s.length << " мм\n";
     }
 
-    cout << "\n🟥 Вертикальные сегменты:\n";
+    cout << "\n Вертикальные сегменты:\n";
     for (const Segment& s : verticalSegments) {
         cout << "(" << s.start.x << ", " << s.start.y << ") → ("
              << s.end.x << ", " << s.end.y << ") | Длина: " << s.length << " мм\n";
